@@ -106,7 +106,7 @@ void check_properties(const std::vector<std::vector<int>>& triangle) {
    std::cout << "Test passed successfully " << "\n";
 }
 int main() {
-    
+    // command: g++ -Wall --std=c++20 -o main.out ./vector101.cpp
     auto triangle = generate_triangle(20);
     show_view(std::cout, triangle);
 
